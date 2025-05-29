@@ -1,0 +1,76 @@
+{
+  "name": "shacl-guru",
+  "displayName": "shacl-guru",
+  "description": "A VS Code chat assistant for SHACL (Shapes Constraint Language). Generate, explain, and modify SHACL shapes in natural language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:chatView"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "shacl-guru.chatParticipant",
+        "fullName": "SHACL Guru",
+        "name": "shacl",
+        "description": "What SHACL Shape do you want to create?",
+        "isSticky": true,
+        "commands": [
+          {
+            "name": "explain",
+            "description": "Explain the selected SHACL shape or concept."
+          },
+          {
+            "name": "best-practices",
+            "description": "List best practices for writing SHACL shapes."
+          },
+          {
+            "name": "generate-conforming",
+            "description": "Generate RDF that conforms to the selected shape."
+          },
+          {
+            "name": "generate-violating",
+            "description": "Generate RDF that violates the selected shape and explain why."
+          },
+          {
+            "name": "add-constraint",
+            "description": "Add a property or constraint to the selected shape."
+          },
+          {
+            "name": "infer-shape",
+            "description": "Infer a SHACL shape from selected RDF data."
+          },
+          {
+            "name": "help",
+            "description": "Show help for all commands and features."
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
