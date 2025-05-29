@@ -3,6 +3,8 @@
   "displayName": "shacl-guru",
   "description": "A VS Code chat assistant for SHACL (Shapes Constraint Language). Generate, explain, and modify SHACL shapes in natural language.",
   "version": "0.0.1",
+  "icon": "shacl-icon.png",
+  "publisher": "simonstey",
   "engines": {
     "vscode": "^1.100.0"
   },
