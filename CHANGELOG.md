@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/simonstey/vscode-shacl-guru/compare/v0.0.2...v0.0.3) (2025-05-30)
+
+
+### Bug Fixes
+
+* Update image paths in README.md for correct asset loading and modify .vscodeignore to ignore all images ([1f1b9db](https://github.com/simonstey/vscode-shacl-guru/commit/1f1b9db62a2ec5da499cf93a2db7957dc6c873d5))
+
 ### 0.0.2 (2025-05-30)
 
 
