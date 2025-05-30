@@ -10,5 +10,5 @@ vsc-extension-quickstart.md
 **/*.ts
 **/.vscode-test.*
 tmp/**
-images/example.gif
+images/**
 shacl-icon.png

@@ -15,13 +15,3 @@ All notable changes to this project will be documented in this file. See [standa
 * Add icon and publisher fields to package.json ([06c8477](https://github.com/simonstey/vscode-shacl-guru/commit/06c8477f399b81c1386ae06d914bc462a42c0d04))
 * Add repository information to package.json ([77d02da](https://github.com/simonstey/vscode-shacl-guru/commit/77d02dae01ae62156b5a4df6386895ac574d0cad))
 * Update image paths in README.md and .vscodeignore for proper asset loading ([7aaeb06](https://github.com/simonstey/vscode-shacl-guru/commit/7aaeb0653e937e06fda8e141d875f75244b1dbfa))
-
-# Change Log
-
-All notable changes to the "shacl-guru" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release

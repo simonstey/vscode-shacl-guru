@@ -60,7 +60,7 @@ Imagine you have the following requirement: "I need a SHACL shape for a Book. A 
 You can simply type into the chat:
 `@shacl create a shape for a Book with a required ISBN and title, and an optional author.`
 
-![Screenshot](images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/simonstey/vscode-shacl-guru/refs/heads/main/images/screenshot.png)
 
 SHACL Guru will respond with the SHACL shape in Turtle syntax.
 
@@ -144,10 +144,6 @@ Currently, SHACL Guru does not have any specific extension settings. This may ch
 ## Release Notes
 
 For detailed information about changes in each version, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
-
-### 0.0.1
-
-- Initial release with core chat features for SHACL generation, explanation, inference, and example data generation.
 
 ## Contributing
 
